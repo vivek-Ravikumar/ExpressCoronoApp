@@ -1,0 +1,54 @@
+#root {
+  background: #97e5ef;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  background: #97e5ef;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin: auto;
+  padding: 80px 0;
+  text-align: center;
+  max-width: 1000px;
+  align-content: center;
+}
+
+.container h1 h3 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.custom {
+  display: block;
+  padding: 30px 30px;
+  padding: 80px 0;
+  text-align: center;
+  margin: auto;
+}
+
+#stateTable {
+  color: #97e5ef;
+}
+
+#indiaTable {
+  color: #97e5ef;
+}
+
+.header {
+  color: #97e5ef;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer {
+  color: #97e5ef;
+  margin: auto;
+  padding: 10px;
+  width: 100vw;
+  text-align: center;
+}

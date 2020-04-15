@@ -1,2 +1,0 @@
-# ExpressCoronoApp
-Created with CodeSandbox

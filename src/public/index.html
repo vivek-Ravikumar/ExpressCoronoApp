@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Corono Count - India</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body id="root">
+   
+    <nav class="navbar navbar-dark bg-dark">
+      <h1 class="header">Lets Fight 💪 Corono Together 🙌</h1>
+    </nav>
+    
+    <div class="container" >
+      <table id="indiaTable" class="table table-dark"  >
+        <thead>
+          <tr>
+            <th colspan="2"><h2>India Corona count</h2></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><h3>Active Cases 🤒</h3></th>
+            <td><h4>Fetching Data</h4> </td>
+          </tr>
+          <tr>
+            <th scope="row"><h3>Recovered 👌</h3></th>
+            <td>Fetching Data</td>
+          </tr>
+          <tr>
+            <th scope="row"><h3>Deceased 💀 </h3></th>
+            <td>Fetching Data</td>
+          </tr>
+          <tr>
+            <th scope="row"><h3>Total Cases</h1></th>
+            <td>Fetching Data</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <button type="button" onclick="submitFunction()" class="btn btn-dark">
+        Refresh
+      </button> -->
+      <button type="button" id='stateButton' onClick="createTable()" class="btn btn-dark buttonClass">
+        State-wise Data
+      </button>
+      <br />
+      <br />
+    </div>
+      <div id="dataTable" class="container" hidden='true' >
+        <table id="stateTable" class="table table-dark " >
+          <thead>
+            <tr>
+              <th><<h3> State </h3> </th>
+              <th> <h3> Active Cases </h3></th>
+              <th> <h3> Confirmed Cases </h3></th>
+              <th> <h3> Deceased </h3> </th>
+              <th> <h3> Recovered  </h3> </th>
+            </tr>
+          </thead>
+        </table>
+       
+      </div>
+
+  
+    
+        <nav class="navbar navbar-dark bg-dark ">
+          <h4 class="footer">Stay indoor 🏠 Stay Safe 🙌 </h4>
+        </nav>
+     
+     
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app.js" > </script>
+
+  
+  </body>
+</html>
